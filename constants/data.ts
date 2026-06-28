@@ -81,7 +81,7 @@ export const EXPERIENCE: Experience[] = [
     role: 'Full Stack Developer Intern',
     period: 'Feb 2025 – Feb 2026',
     type: 'internship',
-    description: 'Built a full-stack document summarization platform that extracts text from 1,000+ PDFs using Apache PDFBox, runs AI-based summarization, and stores results in MongoDB with AWS S3 — reducing manual review time by 80%. Containerized with Docker and shipped with a responsive React + Tailwind CSS UI.',
+    description: 'Built a full-stack AI powered document summarization platform that extracts text from PDFs using Apache PDFBox, runs AI-based summarization, and stores results in MongoDB with AWS S3. Containerized with Docker and shipped with a responsive React + Tailwind CSS UI.',
     technologies: ['Spring Boot', 'React', 'MongoDB', 'AWS S3', 'Apache PDFBox', 'Docker', 'Tailwind CSS', 'REST API'],
   },
 ]
