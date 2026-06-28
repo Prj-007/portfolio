@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Briefcase, Calendar, ArrowUpRight } from 'lucide-react'
+import { Briefcase, Calendar, ArrowUpRight, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 import { SectionWrapper, SectionHeading } from '@/components/shared/SectionWrapper'
 import { EXPERIENCE } from '@/constants/data'
@@ -80,14 +80,25 @@ export function Experience() {
                     </div>
                   </div>
 
-                  {/* View details */}
-                  <Link
-                    href="/projects/ai-document-summarizer"
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-xs font-medium transition-colors"
-                  >
-                    View Details
-                    <ArrowUpRight size={12} />
-                  </Link>
+                  {/* Action buttons */}
+                  <div className="flex items-center gap-2">
+                    <Link
+                      href="/projects/ai-document-summarizer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-xs font-medium transition-colors"
+                    >
+                      View Details
+                      <ArrowUpRight size={12} />
+                    </Link>
+                    <a
+                      href="https://frontend-summarizer-gh.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-zinc-600 dark:text-zinc-400 text-xs font-medium transition-colors"
+                    >
+                      <ExternalLink size={12} />
+                      Live Demo
+                    </a>
+                  </div>
                 </div>
               </div>
             </motion.div>
