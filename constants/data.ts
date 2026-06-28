@@ -259,7 +259,7 @@ export const ACHIEVEMENTS: Achievement[] = [
 export const POSITIONS: Position[] = [
   {
     role: 'Event Organiser',
-    organization: 'Urjotsav 2023 — Annual Tech Fest of RGIPT',
+    organization: 'Urjotsav — Annual Tech Fest of RGIPT',
   },
   {
     role: 'Core Team Member',
