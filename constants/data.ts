@@ -8,7 +8,7 @@ export const PERSONAL = {
   tagline: 'CS 2026 Graduate · AI-powered apps · Scalable backends',
   bio: 'Computer Science fresher (2026) with strong skills in C++, Java, Python, JavaScript, React, Spring Boot, Node.js, MongoDB, and DSA. Experienced in developing AI-powered full-stack applications and scalable backend systems through internship and project work.',
   about: [
-    "I'm a final-year B.Tech student at RGIPT (An Institute of National Importance), specializing in Computer Science & Design Engineering. I build scalable full-stack applications with a focus on clean architecture, AI integration, and production-grade quality.",
+    "I'm a final-year B.Tech student at RGIPT (An Institute of National Importance), specializing in Computer Science. I build scalable full-stack applications with a focus on clean architecture, AI integration, and production-grade quality.",
     "During my internship at Newgen Software Technologies, I shipped a production document summarization platform using Spring Boot, React, MongoDB, and AWS S3 — reducing manual review time by 80% across 1,000+ documents.",
     "I scored in the top 2% in IIT-JEE Advanced 2022, which reflects my analytical thinking and problem-solving drive. Beyond code, I'm passionate about system design, competitive programming, and building products that users actually love.",
   ],
@@ -97,7 +97,7 @@ export const EDUCATION: Education[] = [
     institution: 'Rajiv Gandhi Institute of Petroleum Technology',
     shortName: 'RGIPT',
     degree: 'B.Tech',
-    field: 'Computer Science and Design Engineering',
+    field: 'Computer Science',
     period: '2022 – 2026',
     note: 'An Institute of National Importance',
     courses: [
@@ -260,12 +260,10 @@ export const POSITIONS: Position[] = [
   {
     role: 'Event Organiser',
     organization: 'Urjotsav 2023 — Annual Tech Fest of RGIPT',
-    period: '2023',
   },
   {
     role: 'Core Team Member',
     organization: 'Arpan — Social Council of RGIPT',
-    period: '2023 – 2025',
   },
 ]
 

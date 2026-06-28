@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MapPin, GraduationCap, Trophy, Users } from 'lucide-react'
+import { MapPin, GraduationCap, Trophy } from 'lucide-react'
 import { SectionWrapper, SectionHeading } from '@/components/shared/SectionWrapper'
 import { PERSONAL, ACHIEVEMENTS, POSITIONS } from '@/constants/data'
 
@@ -50,10 +50,6 @@ export function About() {
               <div className="flex items-center gap-3 text-sm text-zinc-600 dark:text-zinc-400">
                 <Trophy size={16} className="text-blue-500 shrink-0" />
                 <span>Top 2% — IIT-JEE Advanced 2022</span>
-              </div>
-              <div className="flex items-center gap-3 text-sm text-zinc-600 dark:text-zinc-400">
-                <Users size={16} className="text-blue-500 shrink-0" />
-                <span>Core Team · Arpan Social Council</span>
               </div>
             </div>
 

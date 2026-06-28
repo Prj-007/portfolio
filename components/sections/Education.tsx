@@ -102,6 +102,14 @@ export function Education() {
           <div>
             <p className="text-sm font-semibold text-zinc-800 dark:text-zinc-200">The Web Developer Bootcamp 2024</p>
             <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5">Udemy · Full-stack MERN Curriculum · Completed 2024</p>
+            <a
+              href="https://drive.google.com/file/d/1_iQ3Xyz0DOHyFGuCHznX5BgVWtsHPhht/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 mt-1.5 text-xs text-blue-500 hover:text-blue-600 font-medium transition-colors"
+            >
+              View Certificate →
+            </a>
           </div>
         </motion.div>
       </div>

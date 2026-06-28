@@ -55,5 +55,5 @@ export interface Achievement {
 export interface Position {
   role: string
   organization: string
-  period: string
+  period?: string
 }
