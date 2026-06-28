@@ -1,7 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Briefcase, Calendar } from 'lucide-react'
+import { Briefcase, Calendar, ArrowUpRight } from 'lucide-react'
+import Link from 'next/link'
 import { SectionWrapper, SectionHeading } from '@/components/shared/SectionWrapper'
 import { EXPERIENCE } from '@/constants/data'
 
@@ -63,7 +64,7 @@ export function Experience() {
                   </p>
 
                   {/* Tech badges */}
-                  <div>
+                  <div className="mb-4">
                     <p className="text-xs font-medium text-zinc-400 dark:text-zinc-500 uppercase tracking-wider mb-2">
                       Technologies
                     </p>
@@ -78,6 +79,15 @@ export function Experience() {
                       ))}
                     </div>
                   </div>
+
+                  {/* View details */}
+                  <Link
+                    href="/projects/ai-document-summarizer"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-xs font-medium transition-colors"
+                  >
+                    View Details
+                    <ArrowUpRight size={12} />
+                  </Link>
                 </div>
               </div>
             </motion.div>
