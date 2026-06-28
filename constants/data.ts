@@ -81,8 +81,8 @@ export const EXPERIENCE: Experience[] = [
     role: 'Full Stack Developer Intern',
     period: 'Feb 2025 – Feb 2026',
     type: 'internship',
-    description: 'Built a full-stack AI powered document summarization platform that extracts text from PDFs using Apache PDFBox, runs AI-based summarization, and stores results in MongoDB with AWS S3. Containerized with Docker and shipped with a responsive React + Tailwind CSS UI.',
-    technologies: ['Spring Boot', 'React', 'MongoDB', 'AWS S3', 'Apache PDFBox', 'Docker', 'Tailwind CSS', 'REST API'],
+    description: 'Built a full-stack AI powered document summarization platform that extracts text from PDFs using Apache PDFBox, runs summarization via Google Gemini API, and stores results in MongoDB with AWS S3. Containerized with Docker and shipped with a responsive React + Tailwind CSS UI.',
+    technologies: ['Spring Boot', 'React', 'MongoDB', 'AWS S3', 'Apache PDFBox', 'Google Gemini', 'Docker', 'Tailwind CSS'],
   },
 ]
 
@@ -114,19 +114,19 @@ export const PROJECTS: Project[] = [
     title: 'AI Document Summarizer',
     tagline: 'Production-grade document intelligence platform',
     description:
-      'A full-stack document summarization platform built during my internship at Newgen Software Technologies. Processes 1,000+ PDFs with Apache PDFBox and AI-based summarization, dramatically reducing manual review effort for enterprise teams.',
+      'A full-stack document summarization platform built during my internship at Newgen Software Technologies. Extracts text from PDFs using Apache PDFBox, summarizes using Google Gemini API, and stores results in MongoDB with AWS S3.',
     problem:
       'Enterprise teams spent hours manually reviewing large volumes of PDF documents. There was no automated way to extract, summarize, and store document insights at scale.',
     features: [
-      'PDF text extraction from 1,000+ documents using Apache PDFBox',
-      'AI-powered summarization reducing manual review time by 80%',
+      'PDF text extraction using Apache PDFBox',
+      'AI-powered summarization via Google Gemini API',
       'AWS S3 integration for cloud document storage',
-      'Containerized deployment with Docker for consistent environments',
+      'Containerized deployment with Docker',
       'Responsive React UI with Tailwind CSS and real-time feedback',
       'REST API test automation scripts covering all endpoints',
       'Agile development with code reviews and sprint planning',
     ],
-    techStack: ['Spring Boot', 'React', 'MongoDB', 'AWS S3', 'Apache PDFBox', 'Docker', 'Tailwind CSS', 'Java'],
+    techStack: ['Spring Boot', 'React', 'MongoDB', 'AWS S3', 'Apache PDFBox', 'Google Gemini', 'Docker', 'Java'],
     githubFE: 'https://github.com/Prj-007/frontend-summarizer',
     githubBE: 'https://github.com/Prj-007/backend-summarizer-latest',
     live: 'https://frontend-summarizer-gh.vercel.app',
