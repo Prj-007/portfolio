@@ -24,7 +24,7 @@ export interface Experience {
   role: string
   period: string
   type: 'internship' | 'full-time' | 'part-time'
-  description: string[]
+  description: string
   technologies: string[]
 }
 

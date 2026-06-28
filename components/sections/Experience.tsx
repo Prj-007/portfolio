@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Briefcase, Calendar, CheckCircle2 } from 'lucide-react'
+import { Briefcase, Calendar } from 'lucide-react'
 import { SectionWrapper, SectionHeading } from '@/components/shared/SectionWrapper'
 import { EXPERIENCE } from '@/constants/data'
 
@@ -57,15 +57,10 @@ export function Experience() {
                     </div>
                   </div>
 
-                  {/* Bullets */}
-                  <ul className="flex flex-col gap-3 mb-6">
-                    {exp.description.map((point, idx) => (
-                      <li key={idx} className="flex items-start gap-3 text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed">
-                        <CheckCircle2 size={14} className="text-blue-500 mt-0.5 shrink-0" />
-                        <span>{point}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  {/* Description */}
+                  <p className="text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed mb-6">
+                    {exp.description}
+                  </p>
 
                   {/* Tech badges */}
                   <div>
