@@ -21,7 +21,7 @@ export const PERSONAL = {
   resume: '/resume.pdf',
   interests: ['Full Stack Development', 'Backend Systems', 'AI/ML Applications', 'System Design', 'Competitive Programming'],
   careerGoal: 'Seeking Software Engineer, Backend Developer, Full-Stack Developer, or AI Engineer roles where I can contribute, learn, and grow in a fast-paced, technology-driven environment.',
-  typingTexts: ['Full Stack Developer', 'Backend Engineer', 'AI App Builder', 'Problem Solver'],
+  typingTexts: ['Full Stack Developer', 'AI Developer', 'Problem Solver'],
 }
 
 export const NAV_LINKS = [

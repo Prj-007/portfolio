@@ -72,7 +72,7 @@ export function Hero() {
           <motion.div variants={item} className="mb-6 flex justify-center">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-500 text-xs font-medium">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-              Open to SWE / Backend / Full-Stack Roles
+              Open to SWE / AI Developer / Full-Stack Roles
             </span>
           </motion.div>
 
@@ -99,9 +99,7 @@ export function Hero() {
             variants={item}
             className="text-base sm:text-lg text-zinc-500 dark:text-zinc-400 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            CS 2026 · Internship at{' '}
-            <span className="text-zinc-700 dark:text-zinc-200 font-medium">Newgen Software Technologies</span>
-            {' '}· Building AI-powered full-stack apps and scalable backend systems.
+            CS 2026 · Intern at Newgen · 300+ DSA · Full Stack · AI Developer
           </motion.p>
 
           {/* CTA buttons */}
