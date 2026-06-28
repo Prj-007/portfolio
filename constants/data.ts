@@ -100,6 +100,7 @@ export const EDUCATION: Education[] = [
       'Database Management Systems',
       'Computer Networks',
       'Machine Learning',
+      'Artificial Intelligence',
       'Operating Systems',
       'Software Engineering',
     ],
