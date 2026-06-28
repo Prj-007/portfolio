@@ -103,6 +103,7 @@ export const EDUCATION: Education[] = [
       'Artificial Intelligence',
       'Operating Systems',
       'Software Engineering',
+      'Web Development',
     ],
     achievements: ['Top 2% Rank in IIT-JEE Advanced Exam 2022'],
   },
